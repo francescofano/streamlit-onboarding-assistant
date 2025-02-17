@@ -1,4 +1,4 @@
-# AI Onboarding Assistant
+# Streamlit Onboarding Assistant
 
 An intelligent assistant built with LangChain that helps with employee onboarding by providing context-aware responses based on company policies and employee information.
 
