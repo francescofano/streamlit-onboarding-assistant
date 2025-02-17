@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-openai
+langchain-chroma
+langchain-community
+faker
+python-dotenv
+streamlit
+watchdog
+pypdf
