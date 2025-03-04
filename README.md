@@ -25,12 +25,18 @@ An intelligent assistant built with LangChain that helps with employee onboardin
    cd streamlit-onboarding-assistant
    ```
 
-2. Install dependencies:
+2. Set up the environment:
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Configure environment:
+4. Configure environment:
    ```
    cp .env.example .env
    ```
@@ -40,13 +46,9 @@ An intelligent assistant built with LangChain that helps with employee onboardin
 
 Start the application:
 ```
-python app.py
+streamlit run gui.py
 ```
 
-Or use the GUI interface:
-```
-python gui.py
-```
 
 ## Project Structure
 
@@ -57,13 +59,4 @@ python gui.py
 - `requirements.txt` - Project dependencies
 - `.env` - Environment variables
 - `.env.example` - Example environment variables
-
-## Development
-
-To extend the assistant:
-1. Modify prompts in `prompts.py`
-2. Update vector store with new documents
-3. Extend `assistant.py` for new features
-
-
 
